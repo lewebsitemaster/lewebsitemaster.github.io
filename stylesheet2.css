@@ -1,0 +1,96 @@
+body, html{
+  min-height:100%;
+}
+
+body {
+  background-position: center;
+  background-attachment: fixed;
+  background-image:url("http://www.tennisclearpoint.com/tennis%203.jpeg");
+  background-size: cover;
+}
+
+.top-header {
+  width: 100%;
+  max-width:960px;
+  font:6em "amatic SC", cursive;
+  color:#fff;
+  text-shadow:1px 1px 0 rgba(0,0,0,.2);
+  margin:40px auto;
+  text-align:center;
+}
+
+h1 {
+  color: black;
+  margin-left: 30px;
+}
+
+p {
+  color:white;
+  font-size: 30px;
+  width: 100%;
+  max-width:960px;
+  text-align: center;
+  text-shadow:1px 1px 0 rgba(0,0,0,.2);
+  margin:40px auto;
+}
+
+a.imgLink{
+    color: white; text-decoration: none;
+}
+div.imgLink{
+    position: center: 163px; top: 1px; font-size: 60px; display: block;
+}
+
+.table1 {
+color: #333;
+font-family:6em "amatic SC", cursive;
+background: rgba(255,255,255,0.5)
+}
+
+td, th {
+  border: 1px solid transparent;
+  height: 30px;
+  transition: all 0.3s;
+}
+
+th {
+  background: transparent;
+  font-weight: bold;
+}
+
+td {
+  background: transparent;
+  text-align: center;
+  font-size: 60px;
+
+}
+
+tr:nth-child(even) td { background: transparent; }
+
+tr:nth-child(odd) td { background: transparent; }
+
+tr td:hover { background: #666; color: #FFF; }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
